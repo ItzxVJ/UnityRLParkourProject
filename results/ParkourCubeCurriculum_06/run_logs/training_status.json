@@ -1,0 +1,32 @@
+{
+    "level_index": {
+        "lesson_num": 0
+    },
+    "ParkourCube": {
+        "checkpoints": [
+            {
+                "steps": 2197,
+                "file_path": "results\\ParkourCubeCurriculum_06\\ParkourCube\\ParkourCube-2197.onnx",
+                "reward": -1.8074999451637268,
+                "creation_time": 1782721725.336939,
+                "auxillary_file_paths": [
+                    "results\\ParkourCubeCurriculum_06\\ParkourCube\\ParkourCube-2197.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2197,
+            "file_path": "results\\ParkourCubeCurriculum_06\\ParkourCube.onnx",
+            "reward": -1.8074999451637268,
+            "creation_time": 1782721725.336939,
+            "auxillary_file_paths": [
+                "results\\ParkourCubeCurriculum_06\\ParkourCube\\ParkourCube-2197.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.1.2+cu121"
+    }
+}

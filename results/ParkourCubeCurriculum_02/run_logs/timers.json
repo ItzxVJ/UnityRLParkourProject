@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1782560573",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\vijay\\AppData\\Roaming\\Python\\Python310\\site-packages\\mlagents\\trainers\\learn.py Assets/Config/parkour_curriculum.yaml --run-id=ParkourCubeCurriculum_02",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.1.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1782560585"
+    },
+    "total": 11.799467799999547,
+    "count": 1,
+    "self": 0.016184399999474408,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0695107999999891,
+            "count": 1,
+            "self": 0.0695107999999891
+        },
+        "TrainerController.start_learning": {
+            "total": 11.713772600000084,
+            "count": 1,
+            "self": 0.0001143000008596573,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 11.713640599999053,
+                    "count": 1,
+                    "self": 11.713640599999053
+                },
+                "TrainerController._save_models": {
+                    "total": 1.7700000171316788e-05,
+                    "count": 1,
+                    "self": 1.7700000171316788e-05
+                }
+            }
+        }
+    }
+}
